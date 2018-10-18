@@ -1,0 +1,78 @@
+@import './variable';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+}
+
+html {
+    font-family: -apple-system-font, "Helvetica Neue", Helvetica, sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    width: 7.5rem;
+    height: 100%;
+    line-height: 1.6;
+    font-size: .32rem;
+    color: #333;
+    background-color: $mainBgColor;
+    margin: 0 auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+i {
+    font-style: normal;
+}
+
+input, textarea, select, button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+}
+
+textarea {
+    resize: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0;
+}
+
+img {
+    width: 100%;
+    // vertical-align: middle;
+    border: none;
+    outline: none;
+}
+
+*:not(input):not(select):not(textarea) {
+    user-select: none;
+}
+
+.sp-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sp-content {
+    padding-top: .9rem;
+}

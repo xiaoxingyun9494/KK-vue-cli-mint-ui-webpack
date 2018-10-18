@@ -1,0 +1,44 @@
+/***
+*variable
+*/
+
+
+/***
+*主题颜色的切换
+*/
+//主题色和主题背景色
+$mainColor: #ff9900;
+$mainBgColor: #fff;
+//导航头部title的字体颜色和主题颜色
+$headerBgColor: #ff9900;
+$headerFontColor: red;
+//按钮背景色和字体色
+$buttonBgColor: red;
+$buttonFontColor: #FFFFFF;
+$buttonDisBgColor: #CCCCCC;
+$buttonDisFontColor: #FFFFFF;
+
+
+/***
+*function
+*/
+@function fontSize($screen, $fontSize) {
+    @return ceil($screen / 750 * 100 * $fontSize);
+};
+@function toRem($size) {
+    @return $size * 2 / ceil(375 / 750 * 100);
+}
+
+/***
+*mixin
+*/
+@mixin baseLineCss {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    transform: scaleY(.5);
+    position: absolute;
+}
+
+

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'customicon';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../../assets/iconfont.ttf') format('truetype');
+}
+
+[class*="icon-"] {
+    display: inline-block;
+    // line-height: 1;
+    font-family: 'customicon' !important;
+    // vertical-align: middle;
+    text-rendering: auto;
+    // -webkit-text-stroke-width: 0.2px;
+    -webkit-font-smoothing: antialiased;
+    // &:before{
+    //     display: inline-block;
+    // }
+}
+

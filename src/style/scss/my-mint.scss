@@ -1,0 +1,194 @@
+@import './variable';
+.mint-spinner-snake {
+    margin: 0 auto;
+}
+.mint-spinner-fading-circle {
+    margin: 0 auto;
+}
+.mint-header {
+    background-color: $headerBgColor;
+    height: .9rem;
+    font-size: .36rem;
+    max-width: 7.5rem;
+    margin: 0 auto;
+}
+.mint-header-title {
+  // color: $headerFontColor;
+  height: .6rem;
+  line-height: .6rem;
+}
+.mint-navbar {
+    padding-top: .9rem;
+    border-bottom: 1px solid #e8e6e6;
+}
+.mint-navbar .mint-tab-item.is-selected {
+    border-bottom: .1rem solid $mainColor;
+    color: $mainColor;
+    margin-bottom: -.03rem;
+}
+.mint-tab-item-label {
+    font-size: .28rem;
+}
+.mint-tab-item-icon {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.mint-cell img {
+    width: 1rem;
+    height: 1rem;
+    padding: .05rem;
+    border-radius: .2rem;
+}
+.mint-cell {
+    min-height: 1rem;
+    // padding: .1rem;
+}
+.mint-cell-value {
+    font-size: .24rem;
+    color:#7d7b7b;
+}
+.mint-cell-label {
+    margin-top: .3rem;
+}
+.mint-field {
+    margin-top: .9rem;
+}
+.mt-progress {
+    width: 2rem;
+}
+.mint-field.is-textarea {
+    margin-top: .9rem;
+    border-radius: .3rem;
+}
+.mint-cell-wrapper {
+    // border-bottom: 1px solid #e8e6e6;
+    // padding: .2rem;
+}
+.mint-field-core {
+    text-align: justify;
+}
+.mint-field .mint-cell-title {
+    width: 1rem;
+}
+.mint-field.is-textarea .mint-cell-value {
+    padding: .3rem 0 0;
+}
+.mint-header.is-fixed {
+    z-index:999;
+}
+.mint-tabbar > .mint-tab-item.is-selected {
+    color:$mainColor;
+}
+.mint-tabbar {
+    max-width: 7.5rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.mint-tabbar.is-fixed {
+    height: 1.2rem;
+}
+.mint-tab-container-item {
+    margin-bottom: 1.2rem;
+}
+.mint-indicator-wrapper {
+    background-color: #fff;
+}
+.mint-spinner-triple-bounce-bounce1 {
+    background-color: red !important;
+}
+.mint-spinner-triple-bounce-bounce2 {
+    background-color: yellowgreen !important;
+}
+.mint-spinner-triple-bounce-bounce3 {
+    background-color: skyblue !important;
+}
+.mint-toast {
+    padding: .2rem !important;
+}
+.mint-toast-icon {
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+.mintui {
+    font-size: .32rem;
+}
+.mint-button-text {
+    vertical-align: middle;
+}
+
+// loadmore组件样式开始
+.mint-loadmore {
+    overflow: hidden;
+}
+.mint-loadmore-top span {
+    -webkit-transition: .2s linear;
+    transition: .2s linear
+}
+.mint-loadmore-top span {
+    display: inline-block;
+    vertical-align: middle;
+    color: $mainColor;
+}
+.mint-loadmore-bottom span {
+    display: inline-block;
+    vertical-align: middle;
+    color: $mainColor;
+}
+
+.mint-loadmore-top span.is-rotate {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.mint-spinner-snake {
+    border-top-color: $mainColor !important;
+    border-left-color: $mainColor !important;
+    border-bottom-color: $mainColor !important;
+}
+
+.mint-loadmore-bottom span {
+    display: inline-block;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+    vertical-align: middle
+}
+
+.mint-loadmore-bottom span.is-rotate {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+// loadmore组件样式结束
+
+.kk-icon-fail:before{
+    content:'\e644';
+}
+.kk-icon-success:before{
+    content:'\e6d8';
+}
+.mint-indicator-wrapper {
+    background-color: #2d2c2c;
+}
+.ve-pie {
+    margin-top: .5rem;
+}
+.el-date-editor.el-input {
+    width: 42%;
+    float: left;
+}
+.el-icon-date:before {
+    content: "\E646";
+}
+.el-icon-arrow-left:before {
+    content: "\E731";
+}
+.el-icon-d-arrow-left:before {
+    content: "\E648";
+}
+.el-icon-arrow-right:before {
+    content: "\E630";
+}
+.el-icon-d-arrow-right:before {
+    content: "\E605";
+}
