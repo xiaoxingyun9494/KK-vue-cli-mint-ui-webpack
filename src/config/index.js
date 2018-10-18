@@ -1,7 +1,7 @@
 export default {
     title: '',
     appType: '',
-    baseURL: 'http://192.168.2.105/',
+    baseURL: 'http://192.168.2.106/',
     pageURL: 'http://hsj.nos-eastchina1.126.net/appv1/views/',
     imageURL: 'http://hsj.nos-eastchina1.126.net/appv1/images/',
     injectURL: 'http://hsj.nos-eastchina1.126.net/appv1/js/',
